@@ -1,0 +1,257 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* Header Section */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: white;
+    z-index: 100;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #6a0dad;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #6a0dad;
+}
+
+.btn {
+    background-color: #6a0dad;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn-outline {
+    background-color: transparent;
+    color: #6a0dad;
+    border: 2px solid #6a0dad;
+    margin-left: 10px;
+}
+
+/* Section Style */
+.section {
+    padding: 100px 10%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Home Section */
+.home {
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 80px;
+}
+
+.text-content {
+    max-width: 100%;
+}
+
+.text-content h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.text-content h1 span {
+    color: #6a0dad;
+}
+
+.text-content h2 {
+    font-size: 24px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.text-content p {
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.profile-photo img {
+    width: 400px;
+    border-radius: 15px;
+}
+
+/* About Section */
+.about {
+    background-color: #fff;
+    text-align: center;
+}
+
+.about h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    max-width: 800px;
+    margin: auto;
+    line-height: 1.8;
+}
+
+/* Portfolio Section */
+.portfolio {
+    background-color: #f8f8f8;
+}
+
+.portfolio h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.portfolio-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.project {
+    text-align: center;
+}
+
+.project img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.project h3 {
+    margin-top: 10px;
+}
+
+/* Blog Section */
+.blog {
+    background-color: #fff;
+    text-align: center;
+}
+
+.blog h1 {
+    margin-bottom: 40px;
+}
+
+.blog-post {
+    margin-bottom: 30px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.blog-post h3 {
+    color: #6a0dad;
+    margin-bottom: 10px;
+}
+
+/* Contact Section */
+.contact {
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+.contact h1 {
+    margin-bottom: 30px;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: auto;
+}
+
+.contact input, 
+.contact textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact button {
+    width: 100%;
+    background-color: #6a0dad;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+/* Resume Section */
+.resume {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.resume button {
+    width: 50%;  /* Width is 70% of the parent container */
+    background-color: #6a0dad;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.resume button:hover {
+    background-color: #5a0a9a; /* Darker purple when hovered */
+}
+
+.resume h2 {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
